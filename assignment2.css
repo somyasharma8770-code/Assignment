@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+
+}
+header{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size:15px;
+    text-align: center;
+    margin-top: 0%;
+}
+.container{
+    margin: 4%;
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+.opt{
+    color: black;
+    display: inline-flex;
+    margin: 3%;
+
+}
+button{
+    margin-left: 45%;
+}

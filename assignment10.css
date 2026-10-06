@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+nav a:hover {
+    background-color: #172554;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #172554;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #172554;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 15%;
+    background-color: white;
+}
+
+.about h2,
+.courses h2,
+.contact h2 {
+    color: #172554;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Courses */
+.courses {
+    text-align: center;
+    padding: 50px 8%;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px gray;
+}
+
+.course-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    margin-bottom: 20px;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    background-color: #dbeafe;
+    padding: 50px;
+}
+
+.contact p {
+    margin: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

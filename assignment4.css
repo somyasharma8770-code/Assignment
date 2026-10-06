@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    font-size: 40px;
+    text-align: center;
+    font-style: bold;
+
+}
+.container{
+    border: 1px solid;
+    border-color: black;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    padding-top: 1%;
+}
+h1{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0%;
+}
+.opt{
+    line-height: 2.2;
+
+}
+.checkbox{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 4px;
+    box-shadow: 10px;
+}
+.forgot{
+    font-size: 12px;
+    text-align: right;
+}
